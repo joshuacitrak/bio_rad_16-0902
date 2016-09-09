@@ -1,0 +1,216 @@
+  body {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+  }
+#bradContainer
+{
+    font-family: sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    background-color: #e6e7e8;
+    width:299px;
+    height:249px;
+    border: 1px solid #00a650;
+    position: relative;
+     overflow: hidden;
+     text-decoration: none;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+     /* This works in IE 8 & 9 too */
+     /* ... but also 5, 6, 7 */
+     filter: alpha(opacity=0); // IE 5-7
+     /* Modern Browsers */
+     opacity: 0;
+     #bradContent {
+         cursor: pointer;
+         width: 100%;
+         height: 100%;
+         #bradBackground {
+             width: 350px;
+             height: 250px;
+             background-color:#00a650;
+         }
+         #dotwatch{
+             width:160px;
+             height: 181px;
+             position: absolute;
+             top: 11px;
+             left: 71px;
+             background-image: url(../img/dot_watch.png);
+         }
+         #t1{
+             width: 257px;
+             height: 71px;
+             position: absolute;
+             left: 22px;
+             top: 65px;
+             background-image: url(../img/t1.png);
+         }
+         #t2{
+             width: 162px;
+             height: 16px;
+             position: absolute;
+             top: 10px;
+             left: 69px;
+             background-image: url(../img/t2.png);
+         }
+         #t3{
+             width: 97px;
+             height: 30px;
+             position: absolute;
+             top: 141px;
+             left: 30px;
+             background-image: url(../img/t3.png);
+         }
+         #i1{
+             width: 90px;
+             height: 59px;
+             position: absolute;
+             top: 67px;
+             left: 39px;
+             background-image: url(../img/i1.png);
+         }
+         #watchbg{
+             width: 147px;
+             height: 166px;
+             position: absolute;
+             top: 34px;
+             left: 144px;
+             background-image: url(../img/watchbg.png);
+         }
+         #watch_wrapper_right, #watch_wrapper_left{
+             position: absolute;
+             overflow: hidden;
+             width:75px;
+             height:145px;
+             top:57px;
+             border:1px solid aqua;
+         }
+         #watch_wrapper_right{
+             left:216px;
+         }
+         #watch_wrapper_left{
+             left:147px;
+         }
+         #watch_face_bg1{
+             width: 69px;
+             height: 156px;
+             position: absolute;
+             top: 4px;
+             left: 74px;
+             background-image: url(../img/wbg1.png);
+         }
+         #watch_face_bg2{
+             width: 139px;
+             height: 158px;
+             position: absolute;
+             top: 4px;
+             left: 4px;
+             background-image: url(../img/wbg2.png);
+         }
+         #watch_face_bg3{
+             width: 69px;
+             height: 133px;
+             position: absolute;
+             top: 4px;
+             left: 74px;
+             background-image: url(../img/wbg3.png);
+         }
+         #watch_center{
+             width: 77px;
+             height: 77px;
+             position: absolute;
+             top: 54px;
+             left: 35px;
+             background-image: url(../img/watch_center.png);
+         }
+         #c1, #c2, #c3, #c4, #c5, #c6, #c7{
+             width: 300px;
+             height: 250px;
+             position: absolute;
+         }
+         #c1, #c2{
+             width: 300px;
+             height: 250px;
+             position: absolute;
+             top: -57px;
+             left: -147px;
+         }
+         #c3, #c4{
+             width: 300px;
+             height: 250px;
+             position: absolute;
+             top: -57px;
+             left: -80px;
+         }
+         #c1{
+             background-image: url(../img/c1.png);
+         }
+         #c2{
+             background-image: url(../img/c2.png);
+         }
+         #c3{
+             background-image: url(../img/c3.png);
+         }
+         #c4{
+             background-image: url(../img/c4.png);
+         }
+         #c5{
+             background-image: url(../img/c5.png);
+         }
+         #c6{
+             background-image: url(../img/c6.png);
+         }
+         #c7{
+             background-image: url(../img/c7.png);
+         }
+         #bradFooter {
+             background: #fff;
+             width: 300px;
+             height: 48px;
+             position: absolute;
+             top: 202px;
+             #bradLogo {
+                 background-image: url(../img/logo.png);
+                 position: absolute;
+                 top: 14px;
+                 left: 205px;
+                 width: 78px;
+                 height: 21px;
+             }
+             #bradCtaButton {
+                 background: #fa7700;
+                 position: absolute;
+                 top: 14px;
+                 left: 15px;
+                 width: 100px;
+                 height: 20px;
+                 #bradCtaTxt {
+                     background-image: url(../img/ctat.png);
+                     position: absolute;
+                     top: 6px;
+                     left: 12px;
+                     width: 72px;
+                     height: 9px;
+                 }
+             }
+         }
+    }
+}
+ button {
+      padding: 10px;
+      margin-top: 10px;
+  }
+  
+  button:nth-child(1) {
+      margin-left: 10px;
+  }
+  
+  #slider {
+      width: 300px;
+      margin: 10px;
+      background-color: #ff0;
+  }
