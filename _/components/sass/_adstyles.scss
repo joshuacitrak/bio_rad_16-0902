@@ -141,9 +141,17 @@
              width: 54px;
              height: 70px;
              position: absolute;
-             top: 67px;
-             left: 39px;
+             top: 47px;
+             left: 60px;
              background-image: url(../img/i3.png);
+         }
+         #i4{
+             width: 83px;
+             height: 79px;
+             position: absolute;
+             top: 54px;
+             left: 27px;
+             background-image: url(../img/i4.png);
          }
          #watchbg{
              width: 147px;
@@ -159,10 +167,9 @@
              width:75px;
              height:145px;
              top:57px;
-             border:1px solid aqua;
          }
          #watch_wrapper_right{
-             left:216px;
+             left:218px;
          }
          #watch_wrapper_left{
              left:147px;
@@ -203,21 +210,20 @@
          #c1, #c2, #c3, #c4, #c5, #c6, #c7{
              width: 300px;
              height: 250px;
+             top: -56px;
              position: absolute;
          }
          #c1, #c2, #c5, #c6, #c7{
              width: 300px;
              height: 250px;
              position: absolute;
-             top: -57px;
-             left: -147px;
+             left: -149px;
          }
          #c3, #c4{
              width: 300px;
              height: 250px;
              position: absolute;
-             top: -57px;
-             left: -80px;
+             left: -79px;
          }
          #c1{
              background-image: url(../img/c1.png);
@@ -227,6 +233,7 @@
          }
          #c3{
              background-image: url(../img/c3.png);
+              top: -57px;
          }
          #c4{
              background-image: url(../img/c4.png);
