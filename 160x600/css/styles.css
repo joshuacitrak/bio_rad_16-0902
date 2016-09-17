@@ -1,0 +1,300 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+#bradContainer {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #e6e7e8;
+  width: 159px;
+  height: 599px;
+  border: 1px solid #00a650;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=0);
+  /* Modern Browsers */
+  opacity: 0; }
+  #bradContainer #bradContent {
+    cursor: pointer;
+    width: 100%;
+    height: 100%; }
+    #bradContainer #bradContent #bradBackground {
+      width: 160px;
+      height: 600px;
+      background-color: #00a650; }
+    #bradContainer #bradContent #dotwatch {
+      width: 147px;
+      height: 168px;
+      position: absolute;
+      top: 156px;
+      left: 6px;
+      background-image: url(../img/dot_watch.png); }
+    #bradContainer #bradContent #t1 {
+      width: 134px;
+      height: 85px;
+      position: absolute;
+      left: 12px;
+      top: 202px;
+      background-image: url(../img/t1.png); }
+    #bradContainer #bradContent #t2 {
+      width: 89px;
+      height: 39px;
+      position: absolute;
+      top: 15px;
+      left: 34px;
+      background-image: url(../img/t2.png); }
+    #bradContainer #bradContent #t3 {
+      width: 97px;
+      height: 30px;
+      position: absolute;
+      top: 191px;
+      left: 31px;
+      background-image: url(../img/t3.png); }
+    #bradContainer #bradContent #t4 {
+      width: 55px;
+      height: 28px;
+      position: absolute;
+      top: 189px;
+      left: 51px;
+      background-image: url(../img/t4.png); }
+    #bradContainer #bradContent #t5 {
+      width: 99px;
+      height: 39px;
+      position: absolute;
+      top: 224px;
+      left: 32px;
+      background-image: url(../img/t5.png); }
+    #bradContainer #bradContent #t6 {
+      width: 130px;
+      height: 62px;
+      position: absolute;
+      top: 14px;
+      left: 15px;
+      background-image: url(../img/t6.png); }
+    #bradContainer #bradContent #t7 {
+      width: 113px;
+      height: 46px;
+      position: absolute;
+      top: 190px;
+      left: 23px;
+      background-image: url(../img/t7.png); }
+    #bradContainer #bradContent #t8 {
+      width: 91px;
+      height: 12px;
+      position: absolute;
+      top: 189px;
+      left: 34px;
+      background-image: url(../img/t8.png); }
+    #bradContainer #bradContent #t9 {
+      width: 122px;
+      height: 27px;
+      position: absolute;
+      top: 15px;
+      left: 18px;
+      background-image: url(../img/t9.png); }
+    #bradContainer #bradContent #t10 {
+      width: 139px;
+      height: 44px;
+      position: absolute;
+      top: 45px;
+      left: 11px;
+      background-image: url(../img/t10.png); }
+    #bradContainer #bradContent #i1 {
+      width: 90px;
+      height: 59px;
+      position: absolute;
+      top: 125px;
+      left: 36px;
+      background-image: url(../img/i1.png); }
+    #bradContainer #bradContent #i2 {
+      width: 112px;
+      height: 85px;
+      position: absolute;
+      top: 96px;
+      left: 24px;
+      background-image: url(../img/i2.png); }
+    #bradContainer #bradContent #i3 {
+      width: 54px;
+      height: 70px;
+      position: absolute;
+      top: 106px;
+      left: 61px;
+      background-image: url(../img/i3.png); }
+    #bradContainer #bradContent #i4 {
+      width: 83px;
+      height: 79px;
+      position: absolute;
+      top: 104px;
+      left: 38px;
+      background-image: url(../img/i4.png); }
+    #bradContainer #bradContent #watchbg {
+      width: 147px;
+      height: 166px;
+      position: absolute;
+      top: 270px;
+      left: 6px;
+      background-image: url(../img/watchbg.png); }
+    #bradContainer #bradContent #watch_wrapper_right, #bradContainer #bradContent #watch_wrapper_left {
+      position: absolute;
+      overflow: hidden;
+      width: 75px;
+      height: 145px;
+      top: 285px; }
+    #bradContainer #bradContent #watch_wrapper_right {
+      left: 80px; }
+    #bradContainer #bradContent #watch_wrapper_left {
+      left: 0px;
+      width: 92px; }
+    #bradContainer #bradContent #watch_face_bg1 {
+      width: 69px;
+      height: 156px;
+      position: absolute;
+      top: 4px;
+      left: 74px;
+      background-image: url(../img/wbg1.png); }
+    #bradContainer #bradContent #watch_face_bg2 {
+      width: 139px;
+      height: 158px;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      background-image: url(../img/wbg2.png); }
+    #bradContainer #bradContent #watch_face_bg3 {
+      width: 70px;
+      height: 134px;
+      position: absolute;
+      top: 4px;
+      left: 74px;
+      background-image: url(../img/wbg3.png); }
+    #bradContainer #bradContent #watch_center {
+      width: 77px;
+      height: 77px;
+      position: absolute;
+      top: 54px;
+      left: 35px;
+      background-image: url(../img/watch_center.png); }
+    #bradContainer #bradContent #c1, #bradContainer #bradContent #c2, #bradContainer #bradContent #c3, #bradContainer #bradContent #c4 {
+      width: 126px;
+      height: 127px;
+      top: 14px;
+      position: absolute; }
+    #bradContainer #bradContent #c1, #bradContainer #bradContent #c3, #bradContainer #bradContent #c4 {
+      position: absolute;
+      left: -63px; }
+    #bradContainer #bradContent #c2 {
+      position: absolute;
+      left: 17px; }
+    #bradContainer #bradContent #c1 {
+      background-image: url(../img/c1.png); }
+    #bradContainer #bradContent #c2 {
+      background-image: url(../img/c2.png); }
+    #bradContainer #bradContent #c3 {
+      background-image: url(../img/c3.png); }
+    #bradContainer #bradContent #c4 {
+      background-image: url(../img/c4.png); }
+    #bradContainer #bradContent #comp1, #bradContainer #bradContent #comp2 {
+      left: 7px;
+      position: absolute;
+      width: 147px;
+      height: 166px; }
+    #bradContainer #bradContent #comp1 {
+      top: 104px;
+      background-image: url(../img/comp1.png); }
+    #bradContainer #bradContent #comp2 {
+      top: 269px;
+      background-image: url(../img/comp2.png); }
+    #bradContainer #bradContent #bradFooter {
+      background: #fff;
+      width: 160px;
+      height: 114px;
+      position: absolute;
+      top: 486px; }
+      #bradContainer #bradContent #bradFooter #bradLogo {
+        background-image: url(../img/logo.png);
+        position: absolute;
+        top: 40px;
+        left: 23px;
+        width: 111px;
+        height: 29px; }
+      #bradContainer #bradContent #bradFooter #bradCtaButton {
+        background: #fa7700;
+        position: absolute;
+        top: -42px;
+        left: 12px;
+        width: 136px;
+        height: 30px; }
+        #bradContainer #bradContent #bradFooter #bradCtaButton #bradCtaTxt {
+          background-image: url(../img/ctat.png);
+          position: absolute;
+          top: 9px;
+          left: 16px;
+          width: 101px;
+          height: 13px; }
+
+button {
+  padding: 10px;
+  margin-top: 10px; }
+
+button:nth-child(1) {
+  margin-left: 10px; }
+
+#slider {
+  width: 160px;
+  margin: 10px;
+  background-color: #ff0; }
