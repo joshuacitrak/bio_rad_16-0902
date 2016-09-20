@@ -19,7 +19,7 @@ function startAd(){
     sq2tl.from("#watch_face_bg3", .8, {opacity:0, ease: Power2.easeOut})
         .to("#watchbg ", .8, {opacity:1, ease: Power2.easeOut})
         .from("#c3", 3, {opacity:0, rotationZ:-120, ease: Power2.easeOut})
-        .from("#c4", 1, {opacity:0, rotationZ:-50, ease: Power2.easeOut}, "-=1")
+        .from("#c4", 1.4, {opacity:0, rotationZ:-30, ease: Power2.easeOut}, "-=1")
         .to("#watch_face_bg3", .8, {opacity:0, ease: Power2.easeOut}, 6.4)
         .to("#watchbg ", .8, {opacity:0, ease: Power2.easeOut}, 6.4)
         .to("#c3", .8, {opacity:0,  ease: Power2.easeOut}, 6.4)
